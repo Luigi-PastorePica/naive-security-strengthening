@@ -27,5 +27,3 @@ print token3
 print f.decrypt(token3)
 a = BitStream(bytes=token3)
 print f.decrypt(a.bytes)
-# print type(a)
-# print a
