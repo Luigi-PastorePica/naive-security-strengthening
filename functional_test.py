@@ -46,7 +46,7 @@ with open(fpath, 'rb') as file:
         # print str(data_stream.read(word_length)) + " " + str(i)
         # i += 1
         for m in range(0, word_length):
-            # print n, m
+            
             if m in bit_pos_test:
                 # print data_stream[n+m]  #debugging
                 if data_stream[n+m] is True:
