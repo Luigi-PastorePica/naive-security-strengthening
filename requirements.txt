@@ -1,2 +1,2 @@
-fernet
+cryptography
 clipboard
